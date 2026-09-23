@@ -1,0 +1,34 @@
+# Build products and IDE state
+/out/
+/build/
+/.vs/
+/.vscode/
+/CMakeUserPresets.json
+**/CMakeFiles/
+**/CMakeCache.txt
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.lib
+
+# Runtime data: never publish real activity or backups
+backup*.json
+backup*.json.tmp
+backup*.json.lock
+*.log
+*.tmp
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.user
+*.suo
+
+# Temporary tooling and OS files
+/.pdf-tools/
+/tmp/
+Thumbs.db
+.DS_Store
